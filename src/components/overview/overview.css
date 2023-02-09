@@ -1,0 +1,30 @@
+.overview{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/background.jpg");
+    background-position: center;
+    background-size: cover;
+    filter: blur(3px);
+}
+.overviewContent{
+    position: absolute;
+    top: 40%;
+    padding: 20PX;
+
+    z-index: 2;
+    color: white;
+}
+.downloadcv{
+    
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.socialicon img{
+    width: 40px;
+    margin-right: 10px;
+}
